@@ -27,6 +27,41 @@
             <h2>content area</h2>
             <p>According to local custom, children are named after the weekday they were born on, as well as a number. Each of these "day names" has additional connotations related to the person's spirit and character. A person's middle name might allude to their birth order, twin status, or an ancestor's middle name.</p>
         </div>
+        <div class="formcontainer">
+            <div class="container">
+              <h2>Enter Your Details Here!</h2>
+              <form name="myForm" class="form" onsubmit="validate();">
+                <div class="form-category">
+                  <label for="number">Year of Birth:</label>
+                  <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
+                </div>
+                <div class="form-category">
+                  <label for="month">Month of Birth:</label>
+                  <input type="number" class="form-control" id="month" placeholder="Month of Birth" name="month">
+                </div>
+                <div class="form-category">
+                  <label for="date">Date of Birth:</label>
+                  <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
+                </div>
+                <div class="form-category">
+                  <label for="month">Gender</label><br>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                    </label>
+                  </div>
+                  <div class="form-check-inline">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+                <br>
+              </form>
+              <p id="results"> </p>
+            </div>
+        </div>
     </div>
 
   </body>
