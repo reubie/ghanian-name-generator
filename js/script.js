@@ -51,26 +51,52 @@ function getGender(){
     switch(gender){
     case "female":
         if (positionDay == 1){
-        alert("You were born on "+days[0] + " and Your akan name is  " +femaleNames[0]+"!");
+        alert("Your birth date is on "+days[0] + " and Your akan name is  " +femaleNames[0]+"!");
         }
         else if(positionDay == 2){
-        alert("You were born on " +days[1] + " and Your akan name is " +femaleNames[1]+"!");
+        alert("Your birth date is on" +days[1] + " and Your akan name is " +femaleNames[1]+"!");
         }
         else if(positionDay == 3){
-        alert("You were born on " +days[2] + " and Your akan name is " +femaleNames[2]+"!");
+        alert("Your birth date is on " +days[2] + " and Your akan name is " +femaleNames[2]+"!");
         }
         else if(positionDay == 4){
-        alert("You were born on " +days[3] + " and Your akan name is " +femaleNames[3]+"!");
+        alert("Your birth date is on" +days[3] + " and Your akan name is " +femaleNames[3]+"!");
         }
         else if(positionDay == 5){
-        alert("You were born on " +days[4] + " and Your akan name is " +femaleNames[4]+"!");
+        alert("Your birth date is on " +days[4] + " and Your akan name is " +femaleNames[4]+"!");
         }
         else if(positionDay == 6){
-        alert("You were born on " +days[5] + " and Your akan name is " + femaleNames[5]+"!");
+        alert("Your birth date is on" +days[5] + " and Your akan name is " + femaleNames[5]+"!");
         }
         else if(positionDay == -0){
-        alert("You were born on " +days[6] + " and Your akan name is " +femaleNames[6]+"!");
+        alert("Your birth date is on " +days[6] + " and Your akan name is " +femaleNames[6]+"!");
         }
         break;
+        case "male":
+        if (positionDay == 1){
+            alert("Your birth date is on " +dayNames[0] + " and Your akan name is " +maleNames[0]+"!");
+        }
+        else if(positionDay == 2){
+            alert("Your birth date is on "+dayNames[1] + " and Your akan name is " +maleNames[1]+"!");
+        }
+        else if(positionDay == 3){
+            alert("Your birth date is on  " +dayNames[2]+ " and Your akan name is " +maleNames[2]+"!");
+        }
+        else if(positionDay == 4){
+            alert("Your birth date is on "+dayNames[3] +  " and Your akan name is " +maleNames[3]+"!");
+        }
+        else if(positionDay == 5){
+            alert("Your birth date is on "+dayNames[4] +  " and Your akan name is " +maleNames[4]+"!");
+        }
+        else if(positionDay == 6){
+            alert("Your birth date is on  "+dayNames[5] +  " and Your akan name is " +maleNames[5]+"!");
+        }
+        else if(positionDay == -0){
+            alert("Your birth date is on  "+dayNames[6] + " and Your akan name is " +maleNames[6]+"!");
+        }
     }
+
+// create a function to calculate the day of the week
+
+    
 }
