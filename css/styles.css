@@ -78,6 +78,7 @@ nav a {
 	margin-bottom: 30px;
 }
 .banner-area p {
+
 	font-family: poppins;
     font-size: 20px;
     line-height: 28px;
@@ -101,4 +102,22 @@ nav a {
     font-weight: 600;
     font-size: 18px;
     font-family: 'Quattrocento', serif;
+  }
+  #get{
+	color: whitesmoke;
+	text-shadow: 2px 2px 5px black;
+	margin-bottom: 10px;
+  }
+  .form-group{
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	font-size: 18px;
+	font-family: 'Quattrocento', serif;
+  }
+  .form-check-label{
+	color: rgb(255, 255, 255);
+  }
+  input[type="radio"] {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
   }

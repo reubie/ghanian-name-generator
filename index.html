@@ -2,10 +2,15 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Gugi|Kalam" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>Ghana Name Generator</title>
-    
+
   </head>
   <div class="box-area">
     <header>
@@ -35,7 +40,7 @@
               <form name="formDetails" class="form" onsubmit="check();">
                 <div class="form-category">
                   <label for="number">Year of Birth:</label>
-                  <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
+                  <input type="number" class="form-control" id="year" placeholder="Year of Birth" name="year">
                 </div>
                 <div class="form-category">
                   <label for="month">Month of Birth:</label>
@@ -43,7 +48,7 @@
                 </div>
                 <div class="form-category">
                   <label for="date">Date of Birth:</label>
-                  <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
+                  <input type="number" class="form-control" id="date" placeholder="Date of Birth" name="date">
                 </div>
                 <div class="form-category">
                   <label for="month">Gender</label><br>
@@ -58,15 +63,12 @@
                     </label>
                   </div>
                 </div>
-                <button type="submit" class="btn btn-primary" onclick="findName();">Generate Name</button>
+                <button type="submit" class="btn btn-primary" onclick="generateName();">Generate Name</button>
                 <br>
               </form>
               <p id="results"> </p>
             </div>
         </div>
-
-
+        <script src="js/scripts.js"></script>
   </body>
-
-  <script src="js/scripts.js"></script>
 </html>
