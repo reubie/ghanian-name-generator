@@ -111,5 +111,8 @@ function getGender(){
 
 // create the call fucntion for the generate button
 
-    
+    function findName(){
+        positionDay = calculatepositionDay();
+        getGender();
+    }
 }
