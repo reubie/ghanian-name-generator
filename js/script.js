@@ -46,5 +46,31 @@ function getGender(){
       return false;
     }
 
+// adding a switch statement so that to compare days against name
 
-  }
+    switch(gender){
+    case "female":
+        if (positionDay == 1){
+        alert("You were born on "+days[0] + " and Your akan name is  " +femaleNames[0]+"!");
+        }
+        else if(positionDay == 2){
+        alert("You were born on " +days[1] + " and Your akan name is " +femaleNames[1]+"!");
+        }
+        else if(positionDay == 3){
+        alert("You were born on " +days[2] + " and Your akan name is " +femaleNames[2]+"!");
+        }
+        else if(positionDay == 4){
+        alert("You were born on " +days[3] + " and Your akan name is " +femaleNames[3]+"!");
+        }
+        else if(positionDay == 5){
+        alert("You were born on " +days[4] + " and Your akan name is " +femaleNames[4]+"!");
+        }
+        else if(positionDay == 6){
+        alert("You were born on " +days[5] + " and Your akan name is " + femaleNames[5]+"!");
+        }
+        else if(positionDay == -0){
+        alert("You were born on " +days[6] + " and Your akan name is " +femaleNames[6]+"!");
+        }
+        break;
+    }
+}
