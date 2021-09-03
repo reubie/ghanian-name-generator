@@ -35,6 +35,8 @@ function check() {
     }
     
   }
+
+  
 // create a function to pick gender
 
 function getGender(){
