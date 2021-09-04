@@ -15,6 +15,10 @@
 
   </head>
   <body>
+
+    <!-- The Navbar area -->
+
+    
     <div class="box-area">
       <header>
         <div class="wrapper">
@@ -26,74 +30,32 @@
           </nav>
         </div>
       </header>
+
+      <!-- The webpage title and description -->
+
       <div class="banner-area">
           <h2>ghana name generator</h2>
           <div class="info">
-            <p>In many parts of Ghana, and elsewhere in West Africa, a person’s name is determined by the day of the week on which she/he was born.
-                <br> Enter your birthday and gender below to read your day name in Ashanti Twi, a dialect of Akan and the most widely spoken language in Ghana:
-                <br> You can also view your name or day of birth from the table below. <br>
+            <p>Hello there! This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, outputs your Akan Name. <a class="research" href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Akan names</a> are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+
             </p>
         </div>
       </div>
+
+      <!-- Title to the form -->
+
       <div class="content-area">
           <div class="wrapper">
               <div class="row">
               <h2>Generate Akan Name</h2>
-              <p class="card-text">Akan names are derived from Ghanian culture. Get your Akan name by filling the form below!</p>
               </div>
       </div>
+
+         <!-- Application form section -->
+
       <div class="formcontainer">
         <div class="container">
           <h1>The Akan name generator!</h1>
-          <p>Hello there! This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, outputs your Akan Name. <a class="research" href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Akan names</a> are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p>
-
-          <div class="row">
-            <div class="col-md-3">
-                <br>
-                <table class="tg">
-                    <tr>
-                        <th class="tg-baqh">Day of the Week</th>
-                        <th class="tg-0lax">Female Name</th>
-                        <th class="tg-0lax">Male Name</th>
-                    </tr>
-                    <tr>
-                        <td class="tg-0lax">SUNDAY</td>
-                        <td class="tg-0lax">Akosua</td>
-                        <td class="tg-0lax">Kwasi</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-0lax">MONDAY</td>
-                        <td class="tg-0lax">Adwoa</td>
-                        <td class="tg-0lax">Kudwo</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-0lax">TUESDAY</td>
-                        <td class="tg-0lax">Abenaa</td>
-                        <td class="tg-0lax">Kwabena</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-0lax">WEDNESDAY</td>
-                        <td class="tg-0lax">Akua</td>
-                        <td class="tg-0lax">Kwaku</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-0lax">THURSDAY</td>
-                        <td class="tg-0lax">Yaa</td>
-                        <td class="tg-0lax">Yaw</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-0lax">FRIDAY</td>
-                        <td class="tg-0lax">Afua</td>
-                        <td class="tg-0lax">Kofi</td>
-                    </tr>
-                    <tr>
-                        <td class="tg-0lax">SATURDAY</td>
-                        <td class="tg-0lax">Ama</td>
-                        <td class="tg-0lax">Kwame</td>
-                    </tr>
-                </table>
-
-        </div>
           <form id="form" name="form" onsubmit="findDay()">
           <label for="year-of-birth">Year:</label>
           <input id="year" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
@@ -121,39 +83,16 @@
           <input type="submit" value="Submit">
       </form>
 
+      <!-- Footer section -->
 
-        <form id="form" name="form" onsubmit="findDay()">
-          <legend>Fill in to generate your Akan name:
-              <hr>
-          </legend>
-          <label for="year ">Year of birth</label>
-          <input type="number" id="year" name="year" min="1900" max="2020" required placeholder="Example: 1989">
-
-          <label for="month ">Month</label>
-          <input type="number" id="month" name="month" min="1" max="12" required placeholder="Example: December=12, May=5">
-
-          <label for="date ">Date</label>
-          <input type="number" id="date" name="date" min="1" max="31" required placeholder="Example: 21 ">
-
-          <p>Select your gender: <br></p>
-          <div class="radio">
-              <label>
-                <input type="radio" name="gender" value="Female" checked>
-                Female
-              </label>
-          </div>
-          <div class="radio">
-              <label>
-                <input type="radio" name="gender" value="Male">
-                Male
-          </label>
-          </div>
-
-          <input type="submit" value="Submit">
-      </form>
-
-      
+      <footer class="page-footer ">
+        <div class="footer-copyright text-center py-3">Copyright © 2021:
+          <a href="https://github.com/reubie"> Reuben Wachira Nguyo </a>
+        </div>
+      </footer>
       </div> 
+
+      <!-- js link section -->
       <script src="javascript/script.js"></script>
 
   </body>
